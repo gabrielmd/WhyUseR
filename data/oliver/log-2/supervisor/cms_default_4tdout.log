@@ -1,0 +1,198 @@
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x35c7150 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x4393150 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x2f74150 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x2a31150 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x3582410 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x368d410 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x2d5d410 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-172-31-9-58 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x301c590 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.cms.core.default.ip-172-31-9-58 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x3093590 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 4 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.cms.core.default: exchange:edx.cms.core(direct) binding:edx.cms.core.default
+                
+
+[Tasks]
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+

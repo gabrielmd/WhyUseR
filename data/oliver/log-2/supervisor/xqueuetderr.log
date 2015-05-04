@@ -1,0 +1,485 @@
+2014-06-30 19:52:42 [9261] [INFO] Starting gunicorn 0.16.1
+2014-06-30 19:52:42 [9261] [INFO] Listening at: http://127.0.0.1:8040 (9261)
+2014-06-30 19:52:42 [9261] [INFO] Using worker: sync
+2014-06-30 19:52:42 [9277] [INFO] Booting worker with pid: 9277
+2014-06-30 19:52:42 [9278] [INFO] Booting worker with pid: 9278
+2014-06-30 19:52:42 [9280] [INFO] Booting worker with pid: 9280
+2014-06-30 19:52:42 [9279] [INFO] Booting worker with pid: 9279
+2014-06-30 16:04:25 [9280] [INFO] Worker exiting (pid: 9280)
+2014-06-30 20:04:25 [9261] [INFO] Handling signal: term
+2014-06-30 16:04:25 [9277] [INFO] Worker exiting (pid: 9277)
+2014-06-30 16:04:25 [9278] [INFO] Worker exiting (pid: 9278)
+2014-06-30 16:04:25 [9279] [INFO] Worker exiting (pid: 9279)
+2014-06-30 20:04:25 [9261] [INFO] Shutting down: Master
+2014-06-30 20:04:25 [25701] [INFO] Starting gunicorn 0.16.1
+2014-06-30 20:04:25 [25701] [INFO] Listening at: http://127.0.0.1:8040 (25701)
+2014-06-30 20:04:25 [25701] [INFO] Using worker: sync
+2014-06-30 20:04:25 [25704] [INFO] Booting worker with pid: 25704
+2014-06-30 20:04:25 [25705] [INFO] Booting worker with pid: 25705
+2014-06-30 20:04:25 [25706] [INFO] Booting worker with pid: 25706
+2014-06-30 20:04:25 [25707] [INFO] Booting worker with pid: 25707
+2014-06-30 16:11:57 [25707] [INFO] Worker exiting (pid: 25707)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-06-30 16:11:57 [25706] [INFO] Worker exiting (pid: 25706)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-06-30 16:11:57 [25705] [INFO] Worker exiting (pid: 25705)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-06-30 16:11:57 [25704] [INFO] Worker exiting (pid: 25704)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-06-30 20:11:57 [25701] [INFO] Handling signal: term
+2014-06-30 20:11:57 [25701] [INFO] Shutting down: Master
+2014-07-02 10:27:10 [1113] [INFO] Starting gunicorn 0.16.1
+2014-07-02 10:27:10 [1113] [INFO] Listening at: http://127.0.0.1:8040 (1113)
+2014-07-02 10:27:10 [1113] [INFO] Using worker: sync
+2014-07-02 10:27:10 [1432] [INFO] Booting worker with pid: 1432
+2014-07-02 10:27:10 [1430] [INFO] Booting worker with pid: 1430
+2014-07-02 10:27:10 [1433] [INFO] Booting worker with pid: 1433
+2014-07-02 10:27:10 [1434] [INFO] Booting worker with pid: 1434
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base_connection.py, line 260
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base_connection.py, line 260
+2014-07-02 07:19:53 [1434] [INFO] Worker exiting (pid: 1434)
+2014-07-02 11:19:53 [1113] [INFO] Handling signal: term
+2014-07-02 07:19:53 [1430] [INFO] Worker exiting (pid: 1430)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-02 07:19:53 [1432] [INFO] Worker exiting (pid: 1432)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-02 07:19:53 [1433] [INFO] Worker exiting (pid: 1433)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-02 11:19:53 [1113] [INFO] Shutting down: Master
+2014-07-02 11:21:29 [1150] [INFO] Starting gunicorn 0.16.1
+2014-07-02 11:21:29 [1150] [INFO] Listening at: http://127.0.0.1:8040 (1150)
+2014-07-02 11:21:29 [1150] [INFO] Using worker: sync
+2014-07-02 11:21:30 [1435] [INFO] Booting worker with pid: 1435
+2014-07-02 11:21:30 [1459] [INFO] Booting worker with pid: 1459
+2014-07-02 11:21:30 [1475] [INFO] Booting worker with pid: 1475
+2014-07-02 11:21:30 [1479] [INFO] Booting worker with pid: 1479
+2014-07-04 09:38:17 [1435] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-07-04 09:38:20 [1475] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-07-04 09:38:20 [1479] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-07-04 09:38:29 [1459] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base.py, line 213
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file csrf.py, line 164
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base.py, line 213
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file csrf.py, line 164
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base.py, line 213
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file csrf.py, line 164
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base.py, line 213
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file csrf.py, line 164
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file base.py, line 213
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file csrf.py, line 164
+2014-07-04 09:39:00 [1459] [INFO] Worker exiting (pid: 1459)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-04 13:39:00 [1150] [INFO] Handling signal: term
+2014-07-04 09:39:00 [1475] [INFO] Worker exiting (pid: 1475)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-04 09:39:00 [1479] [INFO] Worker exiting (pid: 1479)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-04 09:39:00 [1435] [INFO] Worker exiting (pid: 1435)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-07-04 13:39:00 [1150] [INFO] Shutting down: Master
+2014-07-04 13:39:40 [1210] [INFO] Starting gunicorn 0.16.1
+2014-07-04 13:39:40 [1210] [INFO] Listening at: http://127.0.0.1:8040 (1210)
+2014-07-04 13:39:40 [1210] [INFO] Using worker: sync
+2014-07-04 13:39:41 [1419] [INFO] Booting worker with pid: 1419
+2014-07-04 13:39:41 [1420] [INFO] Booting worker with pid: 1420
+2014-07-04 13:39:41 [1421] [INFO] Booting worker with pid: 1421
+2014-07-04 13:39:41 [1422] [INFO] Booting worker with pid: 1422
+2014-07-04 10:09:26 [1420] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-07-04 10:09:27 [1419] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-07-04 10:09:30 [1422] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 103, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 241, in __call__
+    response = self.get_response(request)
+  File "/edx/app/xqueue/xqueue/xqueue/wsgi.py", line 50, in get_response
+    return super(ForceReadPostHandler, self).get_response(request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 176, in get_response
+    signals.got_request_exception.send(sender=self.__class__, request=request)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/dispatch/dispatcher.py", line 172, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/__init__.py", line 68, in _rollback_on_exception
+    transaction.rollback_unless_managed(using=conn)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/transaction.py", line 144, in rollback_unless_managed
+    connection.rollback_unless_managed()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 225, in rollback_unless_managed
+    self._rollback()
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 404, in _rollback
+    BaseDatabaseWrapper._rollback(self)
+  File "/edx/app/xqueue/venvs/xqueue/local/lib/python2.7/site-packages/django/db/backends/__init__.py", line 54, in _rollback
+    return self.connection.rollback()
+OperationalError: (2006, 'MySQL server has gone away')
+2014-09-28 20:01:59 [1420] [INFO] Worker exiting (pid: 1420)
+2014-09-28 20:01:59 [1419] [INFO] Worker exiting (pid: 1419)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+Logged from file glogging.py, line 184
+2014-09-28 20:01:59 [1421] [INFO] Worker exiting (pid: 1421)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+2014-09-29 00:01:59 [1210] [INFO] Handling signal: term
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+2014-09-28 20:01:59 [1422] [INFO] Worker exiting (pid: 1422)
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 807, in emit
+    self._connect_unixsocket(self.address)
+  File "/usr/lib/python2.7/logging/handlers.py", line 745, in _connect_unixsocket
+    self.socket.connect(address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+Logged from file glogging.py, line 184
+2014-09-29 00:01:59 [1210] [INFO] Shutting down: Master
+2014-09-29 00:12:25 [1150] [INFO] Starting gunicorn 0.16.1
+2014-09-29 00:12:25 [1150] [INFO] Listening at: http://127.0.0.1:8040 (1150)
+2014-09-29 00:12:25 [1150] [INFO] Using worker: sync
+2014-09-29 00:12:25 [1376] [INFO] Booting worker with pid: 1376
+2014-09-29 00:12:25 [1377] [INFO] Booting worker with pid: 1377
+2014-09-29 00:12:25 [1378] [INFO] Booting worker with pid: 1378
+2014-09-29 00:12:25 [1383] [INFO] Booting worker with pid: 1383

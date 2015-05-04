@@ -1,0 +1,252 @@
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x29de4d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x41e64d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x34544d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x46884d0 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x298f790 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x289a790 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-10-67-169-22 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x3d62790 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-172-31-9-58 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x3fdc110 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+
+ 
+ -------------- celery@edx.lms.core.low.ip-172-31-9-58 v3.0.19 (Chiastic Slide)
+---- **** ----- 
+--- * ***  * -- Linux-3.2.0-64-virtual-x86_64-with-Ubuntu-12.04-precise
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> broker:      amqp://celery@localhost:5672//
+- ** ---------- .> app:         default:0x3ca0f50 (djcelery.loaders.DjangoLoader)
+- ** ---------- .> concurrency: 1 (processes)
+- *** --- * --- .> events:      ON
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.low: exchange:edx.lms.core(direct) binding:edx.lms.core.low
+                
+
+[Tasks]
+  . bulk_email.tasks.send_course_email
+  . instructor_task.tasks.calculate_grades_csv
+  . instructor_task.tasks.delete_problem_state
+  . instructor_task.tasks.rescore_problem
+  . instructor_task.tasks.reset_problem_attempts
+  . instructor_task.tasks.send_bulk_course_email
+  . openassessment.assessment.worker.grading.grade_essay
+  . openassessment.assessment.worker.grading.reschedule_grading_tasks
+  . openassessment.assessment.worker.training.reschedule_training_tasks
+  . openassessment.assessment.worker.training.train_classifiers
+  . service_status.tasks.delayed_ping
+

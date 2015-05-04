@@ -1,0 +1,54 @@
+2014-06-30 19:14:45,682 INFO RPC interface 'supervisor' initialized
+2014-06-30 19:14:45,682 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2014-06-30 19:14:45,683 INFO RPC interface 'supervisor' initialized
+2014-06-30 19:14:45,683 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-06-30 19:14:45,683 INFO supervisord started with pid 12825
+2014-06-30 19:14:55,520 INFO spawned: 'devpi-server' with pid 13133
+2014-06-30 19:14:57,038 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-06-30 20:03:58,810 INFO stopped: devpi-server (terminated by SIGTERM)
+2014-06-30 20:03:59,817 INFO spawned: 'devpi-server' with pid 25308
+2014-06-30 20:04:01,788 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-06-30 20:11:56,563 WARN received SIGTERM indicating exit request
+2014-06-30 20:11:56,563 INFO waiting for devpi-server to die
+2014-06-30 20:11:56,580 INFO stopped: devpi-server (terminated by SIGTERM)
+2014-07-02 10:26:50,468 WARN Included extra file "/edx/app/devpi/supervisor/conf.d/devpi.conf" during parsing
+2014-07-02 10:26:50,511 INFO RPC interface 'supervisor' initialized
+2014-07-02 10:26:50,511 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2014-07-02 10:26:50,514 INFO RPC interface 'supervisor' initialized
+2014-07-02 10:26:50,514 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-07-02 10:26:50,514 INFO supervisord started with pid 876
+2014-07-02 10:26:51,685 INFO spawned: 'devpi-server' with pid 1082
+2014-07-02 10:26:52,687 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-07-02 11:19:52,349 WARN received SIGTERM indicating exit request
+2014-07-02 11:19:52,350 INFO waiting for devpi-server to die
+2014-07-02 11:19:52,356 INFO stopped: devpi-server (terminated by SIGTERM)
+2014-07-02 11:21:24,818 WARN Included extra file "/edx/app/devpi/supervisor/conf.d/devpi.conf" during parsing
+2014-07-02 11:21:24,856 INFO RPC interface 'supervisor' initialized
+2014-07-02 11:21:24,857 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2014-07-02 11:21:24,857 INFO RPC interface 'supervisor' initialized
+2014-07-02 11:21:24,857 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-07-02 11:21:24,858 INFO supervisord started with pid 766
+2014-07-02 11:21:25,865 INFO spawned: 'devpi-server' with pid 1143
+2014-07-02 11:21:26,868 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-07-04 13:38:58,835 WARN received SIGTERM indicating exit request
+2014-07-04 13:38:58,841 INFO waiting for devpi-server to die
+2014-07-04 13:38:58,849 INFO stopped: devpi-server (terminated by SIGTERM)
+2014-07-04 13:39:35,527 WARN Included extra file "/edx/app/devpi/supervisor/conf.d/devpi.conf" during parsing
+2014-07-04 13:39:35,597 INFO RPC interface 'supervisor' initialized
+2014-07-04 13:39:35,598 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2014-07-04 13:39:35,601 INFO RPC interface 'supervisor' initialized
+2014-07-04 13:39:35,601 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-07-04 13:39:35,601 INFO supervisord started with pid 824
+2014-07-04 13:39:36,611 INFO spawned: 'devpi-server' with pid 1202
+2014-07-04 13:39:37,613 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2014-09-29 00:01:57,953 WARN received SIGTERM indicating exit request
+2014-09-29 00:01:57,965 INFO waiting for devpi-server to die
+2014-09-29 00:01:57,968 INFO stopped: devpi-server (terminated by SIGTERM)
+2014-09-29 00:12:20,046 WARN Included extra file "/edx/app/devpi/supervisor/conf.d/devpi.conf" during parsing
+2014-09-29 00:12:20,135 INFO RPC interface 'supervisor' initialized
+2014-09-29 00:12:20,136 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2014-09-29 00:12:20,140 INFO RPC interface 'supervisor' initialized
+2014-09-29 00:12:20,144 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2014-09-29 00:12:20,144 INFO supervisord started with pid 818
+2014-09-29 00:12:21,153 INFO spawned: 'devpi-server' with pid 1143
+2014-09-29 00:12:22,155 INFO success: devpi-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
