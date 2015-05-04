@@ -1,0 +1,127 @@
+10 Reasons Why You Should Start Using R
+========================================================
+author: Gabriel Martins Dias
+date: May 8th, 2015
+transition: rotate
+class: illustration
+
+<!-- This is a comment line -->
+
+What to expect from this presentation?
+========================================================
+
+* R for beginners
+  * Features
+  * Comparison with other tools
+* Examples
+  * Codes
+  * Tools
+  * Packages
+
+
+What is R?
+========================================================
+
+According to [Wikipedia](http://en.wikipedia.org/wiki/R_%28programming_language%29):
+
+> A **programming language** and software environment for **statistical computing** 
+and graphics. 
+
+> It is widely used among statisticians and data miners for 
+**developing statistical software and data analysis**. 
+
+> Its popularity has **increased substantially** in recent years.
+ 
+Reason #1 - Community
+========================================================
+type:section
+
+Reason #1 - Community
+========================================================
+
+ * Open source
+ * Free
+ * Huge community
+ * Online resources
+     * Courses
+     * Forums
+
+Reason #2 - The IDE
+========================================================
+type:section
+
+Reason #2 - The IDE
+========================================================
+
+Pure R:
+
+<img src="images/section2-ide-1.jpg" alt="Pure R" width="720">
+
+Reason #2 - The IDE
+========================================================
+
+RStudio:
+
+<img src="images/section2-ide-2.jpg" alt="Pure R" width="720">
+
+<!-- In the following code chunk, the defaults for the whole document are defined. -->
+```{r setup, include=FALSE}
+# cache the code chucks in order to speed up the creation
+knitr::opts_chunk$set(cache=TRUE)
+
+# load libraries
+library(ggplot2)
+```
+
+Reason #3 - Style
+========================================================
+type:section
+
+Reason #3 - Style
+========================================================
+
+Matlab:
+
+<img src="images/section3-plot-matlab.png" alt="Plot in Matlab" width="600">
+
+Reason #3 - Style
+====================================
+```{r echo=FALSE}
+f <- function(x) {(-(x^3) / 3) + (12*x)-10}
+```
+
+```{r, fig.width=12, fig.height=7, echo=FALSE}
+x <- seq(1, 10, by = 2)
+plot(x, f(x), 
+     xlab = "Distance(ft)", 
+     ylab = "Force (Newtons)", 
+     main = "Basic Plot - Force vs. Distance", 
+     type = "o", col = "blue")
+```
+
+Reason #3 - Style
+====================================
+```{r, fig.width=12, fig.height=7, echo=FALSE}
+df <- data.frame(x = x, y = f(x))
+qplot(x, y, data = df) + 
+        geom_point(colour="#0000FF") +
+        geom_line(colour="#0000FF") +
+        xlab("Distance(ft)") +
+        ylab("Force (Newtons)") +
+        ggtitle("Basic Plot - Force vs. Distance")
+```
+
+Reason #3 - Style
+====================================
+
+```{r, fig.width=10, fig.height=5}
+d <- read.csv("data/nettleton/data.csv", sep=";")
+qplot(age, data = d, fill = factor(gender))
+```
+
+Source: Nettleton's data set
+
+
+Reason #4 - Data manipulation
+========================================================
+type:section
