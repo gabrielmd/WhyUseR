@@ -2,7 +2,7 @@
 title: "Activities in a Store"
 author: "Gabriel Martins Dias"
 date: "07/05/2015"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
