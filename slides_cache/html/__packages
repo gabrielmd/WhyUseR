@@ -1,0 +1,15 @@
+base
+rmarkdown
+ggplot2
+rJava
+xlsxjars
+xlsx
+jsonlite
+manipulate
+lubridate
+lattice
+caret
+plyr
+xtable
+pander
+randomForest
