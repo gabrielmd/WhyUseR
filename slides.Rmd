@@ -1,4 +1,5 @@
 ---
+title: "6 Reasons Why You Should Start Using R"
 ioslides_presentation:
   height: 1080
   widescreen: yes
@@ -9,9 +10,6 @@ output:
   ioslides_presentation:
     highlight: espresso
     smaller: yes
-title: "6 Reasons Why You Should Start Using R"
-css: style.css
-transition: rotate
 ---
 
 <!-- This is a comment line -->
