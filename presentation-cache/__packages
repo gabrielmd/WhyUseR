@@ -1,3 +1,14 @@
 base
 knitr
 ggplot2
+rJava
+xlsxjars
+xlsx
+jsonlite
+manipulate
+lubridate
+lattice
+caret
+plyr
+xtable
+randomForest

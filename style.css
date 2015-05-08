@@ -1,5 +1,8 @@
-.footer {
-    color: black; background: #E8E8E8;
-    position: fixed; top: 90%;
-    text-align:center; width:100%;
+
+section > h3{
+        margin:0 0 80px 0 !important;
+}
+
+.reveal pre code {
+font-size: 1em;
 }
