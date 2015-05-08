@@ -1,0 +1,88 @@
+---
+title: "Activities in a Store"
+author: "Gabriel Martins Dias"
+date: "07/05/2015"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+# cache the code chucks in order to speed up the creation
+knitr::opts_chunk$set(cache=TRUE)
+
+# load libraries
+library(ggplot2)
+library(xlsx)
+library(jsonlite)
+library(manipulate)
+library(lubridate)
+library(caret)
+library(plyr)
+library(xtable)
+```
+
+# Summary
+
+```{r, echo = FALSE}
+ds1 <- read.xlsx("data/carreras/data.xlsx", sheetIndex = 1)
+
+# interpret the JSON part
+ds1.json <- mapply(fromJSON, as.character(ds1$productdata))
+```
+
+In this report we will study the activities in a store.
+
+# Data Cleaning
+
+First, we clean the data using the following code:
+```{r}
+ds1.json <- lapply(ds1.json, function(list.item){ 
+                data.frame(colour.name = list.item$colour$name, 
+                           colour.code = list.item$colour$code)
+        } )
+ds1.df <- do.call(rbind, ds1.json)
+
+# add a new column
+ds1.df$productid <- ds1$productid
+ds1.df$skuid <- ds1$skuid
+
+rownames(ds1.df) <- 1:nrow(ds1)
+ds1 <- ds1.df
+```
+
+The cleaned data is the following set of rows:
+```{r, echo = FALSE}
+head(ds1, 20)
+```
+
+---
+
+# Which Product is the Most Wanted?
+
+To calculate this we used the following code:
+
+```{r}
+# the number of sales per product
+tries <- tapply(ds1$skuid, ds1$productid, length)
+
+# the product with more tries
+tries[which(tries == max(tries))]
+```
+
+The most tried product is `r tries[which(tries == max(tries))]`.
+
+---
+
+# Which Combination is the Most Tried?
+
+To calculate this we used the following code:
+
+```{r}
+# number of sales per product and color
+tries <- tapply(ds1$skuid, ds1[, c("productid", "colour.code")], length)
+
+# the product with more sales
+ind <- which(tries == max(tries, na.rm = TRUE), arr.ind=TRUE)
+```
+
+One of the most tried combinations is the product `r (rownames(tries)[ind[1,2]])` with color
+<span style="color:`r (colnames(tries)[ind[1,2]])`;">`r (colnames(tries)[ind[1,2]])`</span>.
